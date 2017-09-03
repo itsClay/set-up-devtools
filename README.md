@@ -26,6 +26,6 @@ alias chrome="open -a 'Google Chrome'"
 *EX: filename is*  **example.js**
 
 commands:
-1. `set-up-devtools example` (no '.js')
+1. `set-up-devtools example.js`
 
 2. `chrome index.html` to open up the dev-tools
