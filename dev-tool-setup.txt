@@ -1,0 +1,16 @@
+# set-up-devtools #
+
+## set-up-devtools <your_filename> (no '.js')
+## ex: set-up-devtools myFilename
+set-up-devtools() {
+  echo "<!doctype html>
+  <html>
+  <head>
+      <title>HTML Template example</title>
+      <script type=\"text/javascript\" src=\"./$1\"></script>
+  </head>
+  <body>
+  </body>
+  </html>" > index.html
+}
+alias chrome="open -a 'Google Chrome'" # add index.html after
